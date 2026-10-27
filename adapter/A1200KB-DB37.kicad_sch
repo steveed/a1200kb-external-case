@@ -5827,7 +5827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-37_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm"
+		(property "Footprint" "Connector_Dsub:DSUB-37_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
 			(at 152.4 111.76 0)
 			(hide yes)
 			(show_name no)
