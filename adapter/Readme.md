@@ -12,14 +12,11 @@ DB37 pinout:
 
 - FFC pin n (odd) -> DB37 pin (n+1)/2, FFC pin n (even) -> DB37 pin 19+n/2. FFC 9 is VCC (through F1), FFC 31 is /CAPSLOCK, FFC 32 unused.
 - DB37 17 DISK LED, 18 FLOPPY LED, 19 PWR LED, 35-37 GND.
-- J2 (LED header): 1 GND, 2 PWR, 3 FLOPPY, 4 DISK, same order as J2 on the keyboard.
+- J2 (LED header, right-angle 1x5): 1 GND, 2 PWR, 3 FLOPPY, 4 DISK, 5 GND. Pins 1-4 match the keyboard's 4-pin J2.
 
-The A1200 keyboard FFC has no ground pin, so ground has to come in from outside:
+J2 is symmetric on purpose. A reversed plug keeps GND on GND and FLOPPY in the middle; only the PWR and DISK LEDs swap, so nothing is damaged. A plain 4-pin pinout reversed would put an LED output on ground and reverse-power the keyboard's LED inverter (U1). Only the adapter end is protected this way: the far ends of the jumper cables (A1200 LED header, keyboard J2) can still be plugged in backwards.
 
-- Amiga-side board: plug a 3.5" floppy power lead from the PSU into J4 (TE 171826-4), or wire the A1200 LED header to J2. J4 connects only its two GND pins (2 and 3); +5V and +12V are left unconnected, so a reversed plug is harmless. J4's posts stick out past the top edge, on the same side as the FFC.
-- Keyboard-side board: wire the keyboard's J2 to J2. Leave J4 unfitted.
-
-Without one of these the LEDs and ESD diodes have no return.
+The A1200 keyboard FFC has no ground pin, so ground only reaches the board through J2. Wire the A1200 LED header to J2 on the Amiga-side board and the keyboard's J2 to J2 on the keyboard-side board (pins 1-4; pin 5 is a spare GND), or the LEDs and ESD diodes have no return. If the case's own LEDs already use the A1200 LED header, use a Y-split cable.
 
 Build options:
 
@@ -31,8 +28,7 @@ Parts:
 
 - J1: Molex 52044-3245, 32-way 1.25mm RA FFC connector (same as the keyboard)
 - J3: DB37 female right-angle PCB mount, 9.9mm pin-to-edge, 63.5mm mounting holes. Check the footprint against the part you buy.
-- J2: 1x4 2.54mm header
-- J4: TE 171826-4, 4-pin 2.5mm right-angle floppy power header (Amiga side only). Footprint drawn from TE customer drawing C-171826 rev R4.
+- J2: 1x5 2.54mm right-angle pin header. Its pins stick out past the top edge, on the same side as the FFC.
 - FFC cables: 31-way 1.25mm. Use the same contact type as the keyboard's cable, then check with a meter that FFC pin 1 reaches DB37 pin 1 on each board before powering up.
 
 Don't plug or unplug the cable with the Amiga powered.

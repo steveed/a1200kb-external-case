@@ -9,6 +9,251 @@
 		(rev "1")
 	)
 	(lib_symbols
+(symbol "Connector_Generic:Conn_01x05"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x05_1_1"
+			(rectangle
+				(start -1.27 6.35)
+				(end 1.27 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 5.207)
+				(end 0 4.953)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 		(symbol "Connector:DC37_Socket_MountingHoles"
 			(pin_names
 				(offset 1.016)
@@ -4935,8 +5180,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 60.96 190.5 0)
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 60.96 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4955,7 +5200,7 @@
 				)
 			)
 		)
-		(property "Value" "LED HDR"
+		(property "Value" "LED HDR (symmetric)"
 			(at 60.96 193.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4965,7 +5210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
 			(at 60.96 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -5009,6 +5254,7 @@
 		(pin "4"
 			(uuid "5a531e24-79cd-5acb-a810-d70a07a3e045")
 		)
+		(pin "5" (uuid "151a5d4d-1347-5eca-8039-e6591a336810"))
 		(instances
 			(project "A1200KB-DB37"
 				(path "/45c9f657-c017-55d4-9343-478dd02f86d1"
@@ -11516,15 +11762,12 @@
 			)
 		)
 	)
-	(symbol (lib_id "Connector_Generic:Conn_01x04") (at 60.96 215.9 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "c63f4026-ad49-54e3-9e23-07075ad1e3ea") (property "Reference" "J4" (at 60.96 212.9 0) (effects (font (size 1.27 1.27)))) (property "Value" "Floppy PWR (TE 171826-4)" (at 60.96 223.9 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "Connector_Floppy:TE_171826-4_1x04_P2.50mm_Horizontal" (at 60.96 215.9 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "" (at 60.96 215.9 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "528e17de-2f5a-5472-9ac8-1f16c16e769c"))(pin "2" (uuid "e4b27588-c824-5568-8d21-2fdc9ad2b191"))(pin "3" (uuid "dc945466-d1ba-5245-9369-58ec02784af0"))(pin "4" (uuid "81938f1a-9c39-5c98-8f32-375098b50a4f")) (instances (project "A1200KB-DB37" (path "/45c9f657-c017-55d4-9343-478dd02f86d1" (reference "J4") (unit 1)))))
-	(no_connect (at 55.88 213.36) (uuid "32602f8f-c79c-58f4-bf7e-f68488efc6dc"))
-	(no_connect (at 55.88 220.98) (uuid "528a8bb7-738f-573e-9b67-be87ae3c6fb8"))
-	(wire (pts (xy 55.88 215.9) (xy 53.34 215.9)) (stroke (width 0) (type default)) (uuid "7921f358-20eb-5a1e-8a1e-0fcc42bb68b3"))
-	(wire (pts (xy 55.88 218.44) (xy 53.34 218.44)) (stroke (width 0) (type default)) (uuid "c664a1f2-973d-56f3-9c92-db14e2ee1045"))
-	(wire (pts (xy 53.34 215.9) (xy 53.34 223.52)) (stroke (width 0) (type default)) (uuid "fdfa66e1-73fb-5259-b139-cd41151d5469"))
-	(junction (at 53.34 218.44) (diameter 0) (color 0 0 0 0) (uuid "bdeb38fb-6573-5aca-9de6-c9ce936a1310"))
-	(symbol (lib_id "power:GND") (at 53.34 223.52 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "6cef7375-6884-5049-9ef7-8f0e5e952c5c") (property "Reference" "#PWR41" (at 53.34 220.52 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Value" "GND" (at 53.34 231.52 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 53.34 223.52 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "" (at 53.34 223.52 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e12c4176-0879-5e77-be88-dc5617b6b939")) (instances (project "A1200KB-DB37" (path "/45c9f657-c017-55d4-9343-478dd02f86d1" (reference "#PWR41") (unit 1)))))
-	(text "J4: 3.5in floppy power from the PSU, Amiga-side board only. Only the two GND pins are used, so a reversed plug never lands +12V on anything." (exclude_from_sim no) (at 20.32 261.62 0) (effects (font (size 1.5 1.5)) (justify left)) (uuid "d4779bce-c384-53b7-9854-20b83f78e703"))
+	
+	
+	
+	
+	(symbol (lib_id "power:GND") (at 55.88 198.12 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "bc96caa4-94ac-5ed0-9824-e4a89819dbe0") (property "Reference" "#PWR42" (at 55.88 195.12 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Value" "GND" (at 55.88 201.12 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 55.88 198.12 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "" (at 55.88 198.12 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "a2d78838-93c0-5876-b778-47e1a221f12b")) (instances (project "A1200KB-DB37" (path "/45c9f657-c017-55d4-9343-478dd02f86d1" (reference "#PWR42") (unit 1)))))
+	(text "J2 pinout is symmetric (GND PWR FLOPPY DISK GND): a reversed plug only swaps the PWR and DISK LEDs. GND reaches the board only through J2." (exclude_from_sim no) (at 20.32 261.62 0) (effects (font (size 1.5 1.5)) (justify left)) (uuid "51825226-936c-5f0d-8172-5aab9eae0fab"))
 	(sheet_instances
 		(path "/"
 			(page "1")
