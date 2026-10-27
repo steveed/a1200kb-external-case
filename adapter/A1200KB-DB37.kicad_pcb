@@ -365,6 +365,30 @@
 				)
 			)
 		)
+		(property "LCSC" "C70065"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a91dea8b-8dbb-4597-bf48-ea5f7aec3125")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "nSMD010"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "468197fb-a35e-4ef5-944f-5a0c284e74eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/49bae2ba-b2c0-5d04-9c44-70bb863868d6")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -758,6 +782,30 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "485ea337-4f2a-4578-ad05-b4eec295fb43")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa123ab6-fcc0-4189-84cf-3aaac2f99ea8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "52044-3245"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88eb5906-22c6-4b51-94e6-2499ea913550")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,6 +1215,30 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C77839"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87cf4de9-55d7-4621-827c-79d9e0183b26")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "DS1037-37FNAKT74-0CC"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77b968e0-58d0-4af7-a99b-492ead97dd64")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1801,6 +1873,30 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C32713264"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4893f62f-4ec1-41c7-a615-fe19fb349fc5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "HX PZ2.54-1x5P WZ"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a892ad04-4f8e-462e-9c73-c7c02b2921be")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2599,6 +2695,30 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "66536ab1-c399-4505-865c-6ac8f82c5f6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ceba255f-800a-4316-95f4-210a90fd210f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/074ec996-31a6-5de5-a526-da5e7b7133a3")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -2870,6 +2990,30 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "94fca2fa-3a43-42dd-a641-2f0f235b0680")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9d967137-20f5-4d63-b9e6-540f94047f7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/d365b36f-5faa-5434-b1ad-c2a8d79ed3b8")
@@ -3145,6 +3289,30 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c9caaf92-c9fb-41dc-b578-d7ee20a1c825")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "990dd061-9c94-48ba-9d50-b981e3ae025c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d16745cd-38ce-5033-b5cf-c38f16dd8f84")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -3416,6 +3584,30 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b3f1bc8e-de41-4aa7-8d28-6c1aa4b0ebee")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6798e6a5-295a-4ef7-9657-ecf67083d54a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/b75cc5e0-a93a-5908-ad35-e4d684bb462d")
@@ -3691,6 +3883,30 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "453a7a45-d656-4694-91ef-a65207eaf10b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "563d6d27-b7f3-44b7-bda0-a5d469627e27")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c9938928-936f-5eba-813f-aabc142e6d6f")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -3962,6 +4178,30 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e8e94678-acb0-4e9a-b14e-35586cd03679")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4795a96a-f351-41c6-888c-a7b00fe21530")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/7aa80cbc-e114-5cef-9cfb-161441c16eee")
@@ -4237,6 +4477,30 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "811f9ab0-88c7-4c45-8fa1-a43bead819a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "675475a8-6051-48de-903f-0d7a83fa53e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e4752519-bbf8-54eb-8927-556872657dc2")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -4508,6 +4772,30 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "32246a24-2248-4611-8c3f-2e5a7beb459b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "703dff8d-ee30-4589-8394-676e05be73ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/3d1c1a90-d1a8-5406-986a-d9d3f4d249b6")
@@ -4783,6 +5071,30 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "544e8945-6adf-42ef-8f70-5e117c8e908e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6dd091ab-475b-4529-8630-02313267a872")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/f5b5c5b0-199a-583a-a33d-caf613de10f1")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -5054,6 +5366,30 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "90d1cb3f-19cd-4f19-9e93-f3497c8040d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "98628aec-1849-4894-9bb4-87520b053a37")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/d9daf448-80db-599e-a774-9fcb61b6177b")
@@ -5329,6 +5665,30 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "88876407-666b-4548-b42e-64f12168e184")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "adadfd34-7d18-48ac-adca-8e4039df01fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e1ce7db3-52cd-50db-b603-d2f6f7769ac9")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -5600,6 +5960,30 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ed6d8086-3fd4-488e-95ae-88a792b97473")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2534caf4-8b21-43d1-9df5-c8ae71383b3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/8a733038-57a5-5575-8f59-d8c4f6f7c1b9")
@@ -5875,6 +6259,30 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a6dd0c4a-8f65-4bcc-9523-81d2478007f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a014b696-13c3-4467-a4a7-cc3cbd41068d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/4c12ef65-29d9-58a0-9360-0314bfeea2c8")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -6146,6 +6554,30 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a8e2bc5c-8d07-40a1-88b7-e0accbe47c35")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "64aa759c-1a36-474b-84b1-fa57394015ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/668745cb-e392-5d1d-8ed3-28a9ccab6d3a")
@@ -6421,6 +6853,30 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4d03a23c-7027-43f0-9bda-85b7c3212049")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bda3847d-ab2d-42a8-a89a-389bf8cd3f08")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/30c06955-8d09-5e85-91d0-85bc24b82477")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -6692,6 +7148,30 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c57840e9-82ba-4ec1-930b-a9bb61edc055")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cabfed36-ae1b-4727-a7b9-1cba9cd510dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/2c747c14-c089-5e96-972a-24246dadb640")
@@ -6967,6 +7447,30 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8ff070c2-6d8e-4419-bf3b-8a2f13b26684")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "898a58cf-b870-4cb8-a566-017fe8a19d8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/876be6ff-b05c-5d6f-8deb-dd20d2d7ab47")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -7238,6 +7742,30 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "424549dd-b2e0-4ea5-9874-b9a907fe6f60")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ff6c72ed-df5e-4c01-b0dd-1c221959b090")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/9524e7ea-b7ae-5d12-9002-1defecfbe3bb")
@@ -7513,6 +8041,30 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9e0e455b-bf50-4956-af48-bad75538a44a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b222fee9-2f2b-4a85-8deb-0182bc90da57")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/4afda06a-8e36-5020-81ff-30cfa462c544")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -7784,6 +8336,30 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1b5fb8ce-3bf4-478b-bf8e-c24cd4ef1a89")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6b88d617-1766-4a36-8b49-f5ac8aa07611")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/e0763c71-88b4-5d26-b47e-e5a4ee38940f")
@@ -8059,6 +8635,30 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fd7dc685-802a-4231-a0da-b1302b9ad34f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c9cd617a-a52c-4125-bc58-553110ebc9c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/da3f2e30-6ca5-504f-992e-df2e760a6360")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -8330,6 +8930,30 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d0891c71-0e25-4b76-884c-dd0e99644e87")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5ed39da6-ca10-4559-bc9c-73795b9014d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/66ad0eca-1897-566b-aefd-9ad4199a27a3")
@@ -8605,6 +9229,30 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "49d2cdf7-aab4-44dc-b53f-539bf84f0eb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "68b204d3-7779-4dab-89b0-3fef31a11406")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/55ebe3ac-6ef9-592f-b426-bb476e390d3e")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -8876,6 +9524,30 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9d09809a-c1c1-4f12-8992-30bc1b90ff9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e496223e-4393-4e2c-bbd2-d3e27dfcec78")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/6498d131-943a-5e25-9113-9efe3e15797f")
@@ -9151,6 +9823,30 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "92bd5fa6-6e73-49bb-8235-15068b4f9363")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2811eb1c-ab4d-4fea-88bd-3dabec4194d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/fde3895c-7a38-54ba-a257-bcf7fb516856")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -9422,6 +10118,30 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "03890415-412a-4c3c-ab26-79d2ad0fb3cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d85b35b2-310f-4dc6-bbd8-34732af0e353")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/8260f129-8e80-50a4-bd05-d5d904a25183")
@@ -9697,6 +10417,30 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "72f766b0-2c34-4a1e-b09a-7d7605b8d025")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "183a0cb6-9ee4-455c-b58f-7e4ede08bcf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ecb53759-d18c-5a21-8289-19bab3515061")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -9968,6 +10712,30 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2a18ce5a-7dda-4717-bead-3a3195c7bef6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "833a7605-e74e-471a-84a9-f500c28e9200")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/0e202504-3153-5b60-ab30-c6d756ee1922")
@@ -10243,6 +11011,30 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "18709681-53bb-40f1-9228-ac4869774068")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e086e5c9-20bb-40d8-bdae-b81d179664b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/dad26e44-fa78-5df7-8aa6-26e37e169dbb")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -10514,6 +11306,30 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8af44d7a-5cc6-4afd-abea-c457c8968fd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6ca80eb8-f362-46ed-8d59-f65145d275c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/5afe2e1e-49b5-5f9f-88ba-8152e863e8db")
@@ -10789,6 +11605,30 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e05dd3fd-fa25-4ced-b369-e53df08fabaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "74840113-f004-4092-8373-9cd357691af2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/f170e2bb-207e-56d2-890a-d1ff97357487")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -11060,6 +11900,30 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "50a1fc77-117f-4f59-b3b3-e83d11751bfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "994e9224-0b97-453b-8f35-5e5babbdf9a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/fb411524-4ba4-564b-b2ad-242b5d077a28")
@@ -11335,6 +12199,30 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "077fca57-b06a-40fe-ba3a-048db5631586")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "33ab7927-f00b-434f-9cc0-ca5568933931")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/fb0afd1f-ee28-5ba1-a8d0-87b5a2403048")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -11606,6 +12494,30 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19224"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "47e6c041-1119-4886-beeb-c945879d6c88")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PESD5V0S1BA,115"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "76c1bd12-91f3-45c9-8b03-19a965bea9eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/8161d99f-7f2a-5943-a539-1856419a932c")

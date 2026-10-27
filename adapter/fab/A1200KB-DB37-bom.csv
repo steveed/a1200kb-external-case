@@ -1,0 +1,6 @@
+"Comment","Designator","Footprint","LCSC Part #","MPN"
+"PESD5V0S1BA","D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D33,D34","Diode_SMD:D_SOD-323","C19224","PESD5V0S1BA,115"
+"PTC 100mA hold","F1","Fuse:Fuse_1206_3216Metric","C70065","nSMD010"
+"Molex 52044-3245","J1","Amiga_FFC:FFC-1.25mm-RA-5204403245","","52044-3245"
+"LED HDR (symmetric)","J2","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal","C32713264","HX PZ2.54-1x5P WZ"
+"DB37 female RA","J3","Connector_Dsub:DSUB-37_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm","C77839","DS1037-37FNAKT74-0CC"
