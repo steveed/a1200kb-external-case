@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Amiga_FFC")(type "KiCad")(uri "${KIPRJMOD}/Amiga_FFC.pretty")(options "")(descr "Molex 52044 1.25mm RA FFC connector, as used on A1200KBv2"))
+)
