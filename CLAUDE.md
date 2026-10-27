@@ -14,7 +14,7 @@ There is no docker-compose here. This repo is an exception to the "always use th
   - `pcbnew.FootprintSave` fails; use `pcbnew.PCB_IO_KICAD_SEXPR().FootprintSave(lib, fp)`.
   - After `board.Remove()`, the swig bindings in that process go stale (`FootprintLoad`, `GetPosition` etc. fail). Do removals in one run and save, then make additions in a fresh run.
 
-Checks to run after any change to the adapter (all must be clean apart from the 11 silk-edge warnings from J1 and J2 overhanging the top edge):
+Checks to run after any change to the adapter (all must be clean apart from 13 silk-edge warnings: 11 from J1 and J2 overhanging the top edge, 2 from J3's stock silk ending 0.06mm short of its own edge line):
 
 ```
 K=/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli
@@ -22,6 +22,7 @@ $K sch erc --severity-all adapter/A1200KB-DB37.kicad_sch
 $K pcb drc --refill-zones --save-board --schematic-parity --severity-all adapter/A1200KB-DB37.kicad_pcb
 $K pcb export gerbers --board-plot-params -o adapter/fab/ adapter/A1200KB-DB37.kicad_pcb
 $K pcb export drill -o adapter/fab/ adapter/A1200KB-DB37.kicad_pcb
+adapter/jlc-export.sh   # JLC BOM + CPL
 ```
 
 Freerouting is installed as a KiCad plugin. Running the downloaded jar from the CLI needs explicit user approval.
@@ -38,3 +39,6 @@ Freerouting is installed as a KiCad plugin. Running the downloaded jar from the 
 - The Amiga-side board fits ESD diodes D1-D34 and closes JP1 (shell to GND); the keyboard side leaves JP1 open.
 - `adapter/Amiga_FFC.pretty` is the keyboard's Molex 52044-3245 footprint, copied out of A1200KBv2. On the adapter it is placed at 180° so the cable opening faces the top edge and pin 1 is on the right. It deliberately overhangs the board edge by 1.5mm, as on the keyboard.
 - Net names in the PCB carry eeschema's `/` sheet prefix (e.g. `/KB01`); GND has none.
+- J3 uses the KiCad `EdgePinOffset7.70mm` D-sub footprint, and the bottom edge is 7.70mm from J3's nearest pin row. This matches the stocked LCSC sockets (flange about 8.1mm from that row); the 9.90mm footprint left the board 1.8mm proud of the flange. Diode row A (D20-D34, y 124.4) and row B (D1-D19, y 127.7) are packed as tight as the courtyards allow, and row B's GND vias sit beside pad 2 rather than below it.
+- J3's footprint has `duplicate_pad_numbers_are_jumpers` set, which joins its two SH pads. A footprint swap through pcbnew loses that flag; restore it.
+- JLC part numbers live in hidden `LCSC` and `MPN` symbol fields, mirrored onto the footprints (the parity check flags any mismatch). J1 has no LCSC number; it goes through JLC global sourcing by MPN.

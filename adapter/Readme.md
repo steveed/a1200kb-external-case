@@ -27,9 +27,17 @@ Build options:
 Parts:
 
 - J1: Molex 52044-3245, 32-way 1.25mm RA FFC connector (same as the keyboard)
-- J3: DB37 female right-angle PCB mount, 9.9mm pin-to-edge, 63.5mm mounting holes. Check the footprint against the part you buy.
+- J3: DB37 female right-angle PCB mount, the common "7.2mm" type: about 8.1mm from the flange to the nearest pin row, 63.5mm mounting holes (CONNFLY DS1037-37FNAKT74-0CC, LCSC C77839). The board edge sits 7.7mm from that row, so the flange overhangs the edge slightly instead of the board poking out past it. Check the footprint against the part you buy.
 - J2: 1x5 2.54mm right-angle pin header. Its pins stick out past the top edge, on the same side as the FFC.
 - FFC cables: 31-way 1.25mm. Use the same contact type as the keyboard's cable, then check with a meter that FFC pin 1 reaches DB37 pin 1 on each board before powering up.
+
+JLCPCB assembly:
+
+- Upload the gerber zip of `fab/` (gerbers and drill), then `fab/A1200KB-DB37-bom.csv` and `fab/A1200KB-DB37-cpl.csv`. Both come from `jlc-export.sh` (run from the repo root).
+- The diodes are on the bottom and F1 is on the top, so it needs two-sided Standard PCBA, with through-hole assembly for J1-J3.
+- LCSC parts: D1-D34 C19224, F1 C70065, J2 C32713264, J3 C77839. J1 (Molex 52044-3245) isn't stocked at LCSC; the BOM gives the MPN for JLC's global sourcing.
+- D1-D34 are bidirectional, so a 180° rotation in JLC's preview doesn't matter. Check the J3 and J2 rotations in the preview.
+- This fits the diodes on every board; on keyboard-side boards they are harmless. JP1 is a solder jumper: bridge it by hand on the Amiga-side boards.
 
 Don't plug or unplug the cable with the Amiga powered.
 
