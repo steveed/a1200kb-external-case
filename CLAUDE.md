@@ -42,3 +42,13 @@ Freerouting is installed as a KiCad plugin. Running the downloaded jar from the 
 - J3 uses the KiCad `EdgePinOffset7.70mm` D-sub footprint, and the bottom edge is 7.70mm from J3's nearest pin row. This matches the stocked LCSC sockets (flange about 8.1mm from that row); the 9.90mm footprint left the board 1.8mm proud of the flange. Diode row A (D20-D34, y 124.4) and row B (D1-D19, y 127.7) are packed as tight as the courtyards allow, and row B's GND vias sit beside pad 2 rather than below it.
 - J3's footprint has `duplicate_pad_numbers_are_jumpers` set, which joins its two SH pads. A footprint swap through pcbnew loses that flag; restore it.
 - JLC part numbers live in hidden `LCSC` and `MPN` symbol fields, mirrored onto the footprints (the parity check flags any mismatch). J1 has no LCSC number; it goes through JLC global sourcing by MPN.
+
+## Case
+
+- `case/a1200kb-case.scad` is the whole case, in OpenSCAD (Homebrew `openscad`, manifold backend). `case/export.sh` writes the STLs and a preview PNG to `case/stl/`.
+- Keyboard and adapter features are entered in their own KiCad coordinates and mapped with `kb()` / `ad()`. Take new positions from the KiCad files (`../A1200KBv2/A1200KBv2.kicad_pcb`, `adapter/A1200KB-DB37.kicad_pcb`), not from measurement.
+- The keyboard mounts on its ten PCB holes. Posts under the seven bracket holes stop a bracket's thickness short, so it fits with or without brackets (spacers otherwise). Keep that when moving posts.
+- Each half must stay within 256 mm (P2S bed); the file asserts it.
+- The model is a closed mesh; OpenSCAD's view of an imported STL shows long sliver triangles on the flat faces, which are harmless.
+- Values still estimated are listed in `case/measurements.md`.
+- `link` selects the rear board: `db37` (adapter, D cut-out) or `din5` (encoder, round cut-out). `export.sh` writes both left-tray variants.

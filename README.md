@@ -18,7 +18,7 @@ Both ends use the same adapter board. See [`adapter/Readme.md`](adapter/Readme.m
 ## Contents
 
 - `adapter/` — KiCad 10 project for the FFC ⇄ DB37 adapter board, with Gerbers in `adapter/fab/`
-- keyboard case — not started yet
+- `case/` — OpenSCAD model of the keyboard case (see [`case/Readme.md`](case/Readme.md))
 
 ## Status
 
