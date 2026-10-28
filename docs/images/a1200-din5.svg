@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<rect width="100%" height="100%" fill="#fafafa"/>
+<text x="20" y="28" font-size="17" fill="#222" text-anchor="start" font-weight="bold" font-family="Helvetica, Arial, sans-serif">A1200 side of the DIN 5 socket: CN17 only</text>
+<rect x="100" y="55" width="150" height="216" rx="6" fill="#fff" stroke="#d9534f" stroke-width="2.5"/>
+<text x="175.0" y="76" font-size="14" fill="#d9534f" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">A1200 CN17</text>
+<circle cx="250" cy="95" r="5" fill="#d9534f"/>
+<text x="238" y="99" font-size="12.5" fill="#333" text-anchor="end" font-family="Helvetica, Arial, sans-serif">1  KB_DATA</text>
+<circle cx="250" cy="121" r="5" fill="#d9534f"/>
+<text x="238" y="125" font-size="12.5" fill="#333" text-anchor="end" font-family="Helvetica, Arial, sans-serif">2  KB_CLOCK</text>
+<circle cx="250" cy="147" r="5" fill="#d9534f"/>
+<text x="238" y="151" font-size="12.5" fill="#333" text-anchor="end" font-family="Helvetica, Arial, sans-serif">3  KB_RESET</text>
+<circle cx="250" cy="173" r="5" fill="#d9534f"/>
+<text x="238" y="177" font-size="12.5" fill="#333" text-anchor="end" font-family="Helvetica, Arial, sans-serif">4  U13 reset</text>
+<circle cx="250" cy="199" r="5" fill="#d9534f"/>
+<text x="238" y="203" font-size="12.5" fill="#333" text-anchor="end" font-family="Helvetica, Arial, sans-serif">5  NC</text>
+<circle cx="250" cy="225" r="5" fill="#d9534f"/>
+<text x="238" y="229" font-size="12.5" fill="#333" text-anchor="end" font-family="Helvetica, Arial, sans-serif">6  VCC</text>
+<circle cx="250" cy="251" r="5" fill="#d9534f"/>
+<text x="238" y="255" font-size="12.5" fill="#333" text-anchor="end" font-family="Helvetica, Arial, sans-serif">7  GND</text>
+<rect x="620" y="55" width="150" height="216" rx="6" fill="#fff" stroke="#2e7d32" stroke-width="2.5"/>
+<text x="695.0" y="76" font-size="14" fill="#2e7d32" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">din5 J1</text>
+<circle cx="620" cy="95" r="5" fill="#2e7d32"/>
+<text x="632" y="99" font-size="12.5" fill="#333" text-anchor="start" font-family="Helvetica, Arial, sans-serif">KDAT  1</text>
+<circle cx="620" cy="121" r="5" fill="#2e7d32"/>
+<text x="632" y="125" font-size="12.5" fill="#333" text-anchor="start" font-family="Helvetica, Arial, sans-serif">KCLK  2</text>
+<circle cx="620" cy="147" r="5" fill="#2e7d32"/>
+<text x="632" y="151" font-size="12.5" fill="#333" text-anchor="start" font-family="Helvetica, Arial, sans-serif">KB_RESET out  3</text>
+<circle cx="620" cy="173" r="5" fill="#2e7d32"/>
+<text x="632" y="177" font-size="12.5" fill="#333" text-anchor="start" font-family="Helvetica, Arial, sans-serif">to JP1 (GND)  4</text>
+<circle cx="620" cy="199" r="5" fill="#2e7d32"/>
+<text x="632" y="203" font-size="12.5" fill="#333" text-anchor="start" font-family="Helvetica, Arial, sans-serif">NC  5</text>
+<circle cx="620" cy="225" r="5" fill="#2e7d32"/>
+<text x="632" y="229" font-size="12.5" fill="#333" text-anchor="start" font-family="Helvetica, Arial, sans-serif">VCC in  6</text>
+<circle cx="620" cy="251" r="5" fill="#2e7d32"/>
+<text x="632" y="255" font-size="12.5" fill="#333" text-anchor="start" font-family="Helvetica, Arial, sans-serif">GND  7</text>
+<line x1="250" y1="95" x2="620" y2="95" stroke="#333" stroke-width="2.5"/>
+<line x1="250" y1="121" x2="620" y2="121" stroke="#333" stroke-width="2.5"/>
+<line x1="250" y1="147" x2="620" y2="147" stroke="#333" stroke-width="2.5"/>
+<line x1="250" y1="173" x2="620" y2="173" stroke="#333" stroke-width="2.5"/>
+<line x1="250" y1="199" x2="620" y2="199" stroke="#333" stroke-width="2.5"/>
+<line x1="250" y1="225" x2="620" y2="225" stroke="#333" stroke-width="2.5"/>
+<line x1="250" y1="251" x2="620" y2="251" stroke="#333" stroke-width="2.5"/>
+<text x="450" y="285" font-size="13" fill="#222" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">Straight 7-way cable, pin 1 to pin 1.</text>
+<text x="450" y="315" font-size="12.5" fill="#d9534f" text-anchor="middle" font-family="Helvetica, Arial, sans-serif">CN17 is on later boards only (marked "new on Rev 1E PCB"). If your board has the pads but no header,</text>
+<text x="450" y="334" font-size="12.5" fill="#666" text-anchor="middle" font-weight="bold" font-family="Helvetica, Arial, sans-serif">solder in a 1x7 2.54mm pin header: that is the only change to the A1200 itself.</text>
+<text x="450" y="353" font-size="12.5" fill="#666" text-anchor="middle" font-family="Helvetica, Arial, sans-serif">Leave CN13 (the keyboard ribbon socket) empty. CN14 stays with the case LEDs.</text>
+<text x="450" y="372" font-size="12.5" fill="#666" text-anchor="middle" font-family="Helvetica, Arial, sans-serif">JP1 on the din5 board grounds CN17 pin 4, holding the A1200's own keyboard controller (U13) in reset.</text>
+<text x="450" y="391" font-size="12.5" fill="#666" text-anchor="middle" font-family="Helvetica, Arial, sans-serif">Cut JP1 to give U13 back, e.g. to use the original keyboard again.</text>
+</svg>

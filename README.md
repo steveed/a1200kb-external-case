@@ -4,6 +4,10 @@ Run an [A1200KBv2](https://github.com/aeberbach/A1200KBv2) mechanical keyboard i
 
 Normally an external case means a PS/2 or USB keyboard and an adapter. This project keeps the real A1200 keyboard instead.
 
+![The case](docs/images/case-hero.png)
+
+**Setting one up, or stuck?** The [setup guide](docs/Readme.md) shows each way of connecting, what (if anything) has to change on the A1200, the cable wiring, and a troubleshooting table.
+
 ## How it works
 
 The A1200 keyboard has no controller of its own. It is a bare switch matrix scanned by the keyboard controller on the motherboard, so every one of the 31 lines on the keyboard ribbon (FFC) has to reach the motherboard. DB25 has too few pins, so this uses DB37:
@@ -33,6 +37,7 @@ A1200KBv2 ── [encoder] ══ DIN 5 cable ══ [din5 board] ── A1200 C
 - `din5/` — KiCad 10 project for the A1200 standard keyboard socket (CN17 to DIN 5), with Gerbers in `din5/fab/`
 - `lib/A1200KB.pretty` — footprints shared by those boards (DIN 5)
 - `case/` — OpenSCAD model of the keyboard case (see [`case/Readme.md`](case/Readme.md))
+- `docs/` — setup guide, wiring diagrams and renders (`docs/render.sh` regenerates the images)
 
 ## Status
 

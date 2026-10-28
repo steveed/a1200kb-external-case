@@ -76,3 +76,10 @@ Expected DRC: din5 clean; encoder 12 silk-edge warnings (J1 and J2 overhang the 
 - The model is a closed mesh; OpenSCAD's view of an imported STL shows long sliver triangles on the flat faces, which are harmless.
 - Values still estimated are listed in `case/measurements.md`.
 - `link` selects the rear board: `db37` (adapter, D cut-out) or `din5` (encoder, round cut-out). `export.sh` writes both left-tray variants.
+
+## Docs
+
+- `docs/Readme.md` is the setup guide, aimed at someone wiring up or debugging their own A1200. Keep it about the A1200 end and the cables; board detail lives in each board's README.
+- `docs/render.sh` regenerates `docs/images/`: SVG wiring diagrams from `docs/diagrams.py`, KiCad 3D renders, and case views. Case views import CGAL-exported STLs into `docs/scene.scad`, because OpenSCAD's view of manifold output shows sliver artefacts.
+- `lib/A1200KB.3dshapes/` holds simplified VRML models (DIN 5, Molex FFC) so the renders show the connectors; they are generated from OpenSCAD shapes in 0.1-inch VRML units.
+- Facts about the A1200 (CN13/CN14/CN17 pinouts, KB_RESET pull-down) come from the amigawiki A1200 schematic, sheet 9. Don't add connector locations or board-revision claims that haven't been checked on real hardware.
