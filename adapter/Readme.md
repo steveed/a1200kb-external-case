@@ -18,6 +18,8 @@ J2 is symmetric on purpose. A reversed plug keeps GND on GND and FLOPPY in the m
 
 The A1200 keyboard FFC has no ground pin, so ground only reaches the board through J2. Wire the A1200 LED header to J2 on the Amiga-side board and the keyboard's J2 to J2 on the keyboard-side board (pins 1-4; pin 5 is a spare GND), or the LEDs and ESD diodes have no return. If the case's own LEDs already use the A1200 LED header, use a Y-split cable.
 
+The A1200 LED header (CN14) does not share this pinout: it is 1 PWR, 2 FLOPPY, 3 IDE, 4 CC (unused), 5 GND, and pins 1-4 are driven high straight from VCC. Do not use a straight cable on the Amiga side, or CN14 pin 1 (the power LED driver) lands on J2's GND. Wire CN14 1 → J2 2, CN14 2 → J2 3, CN14 3 → J2 4, CN14 5 → J2 1.
+
 Build options:
 
 - Amiga-side board: fit D1-D34 (SOD-323 5V ESD diodes, keep capacitance low, around 50pF or less) and close JP1 to ground the shell.
