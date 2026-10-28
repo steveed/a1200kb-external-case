@@ -15,14 +15,28 @@ A1200 motherboard ── FFC ── [adapter] ══ DB37 cable ══ [adapter]
 
 Both ends use the same adapter board. See [`adapter/Readme.md`](adapter/Readme.md) for the pinout, build options and parts.
 
+### Alternative: standard Amiga keyboard (DIN 5)
+
+On A1200 boards with the CN17 "KB TEST" header, the keyboard controller's serial lines are available directly:
+
+```
+A1200KBv2 ── [encoder] ══ DIN 5 cable ══ [din5 board] ── A1200 CN17
+```
+
+- [`din5/`](din5/Readme.md) gives the A1200 a standard 5-pin DIN keyboard socket. An A2000/A3000 keyboard (or an A4000 one through a PS/2-to-AT adapter) plugs straight in. No firmware.
+- [`encoder/`](encoder/Readme.md) turns the A1200KBv2 into a standard Amiga keyboard with that same DIN 5, so it also works on an A2000/A3000. It has the same outline as the DB37 adapter, so either fits the case. The activity LEDs don't come across; the power LED does.
+
 ## Contents
 
 - `adapter/` — KiCad 10 project for the FFC ⇄ DB37 adapter board, with Gerbers in `adapter/fab/`
+- `encoder/` — KiCad 10 project for the A1200KBv2 to Amiga keyboard (DIN 5) encoder, with Gerbers in `encoder/fab/`
+- `din5/` — KiCad 10 project for the A1200 standard keyboard socket (CN17 to DIN 5), with Gerbers in `din5/fab/`
+- `lib/A1200KB.pretty` — footprints shared by those boards (DIN 5)
 - `case/` — OpenSCAD model of the keyboard case (see [`case/Readme.md`](case/Readme.md))
 
 ## Status
 
-Rev 1 of the adapter is designed but not built or tested. Before ordering boards:
+Rev 1 of the adapter is designed but not built or tested. The encoder and din5 boards are designed and routed; the encoder has no firmware yet. Before ordering adapter boards:
 
 - Check the DB37 footprint against the connector you buy.
 - Choose the ESD diodes (low capacitance, about 50pF or less).

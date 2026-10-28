@@ -1,0 +1,208 @@
+(footprint "DIN-5_180deg_DIN-504_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "DIN 5-pin 180 degree female, right angle, DIN-504 (LCSC C23689428). Origin: centre of the front face, on the board edge. Shell feet are numbered 4 (GND).")
+	(tags "din din5 connector amiga keyboard")
+	(property "Reference" "REF**"
+		(at 0 -20.5 0)
+		(layer "F.SilkS")
+		(uuid "7108232c-eed3-45d3-874b-df57d692b975")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DIN-5"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "ce6cfbc0-24e6-4b56-826a-373336ed7fea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "875cf75f-8d11-48f1-99ce-2cd631c460db")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a3e56b0-fc56-4b0a-aec4-0680c0207748")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -10.62 -19.12)
+		(end 10.62 -19.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2c885ed-410b-41ad-97e9-3dcb8706aea5")
+	)
+	(fp_line
+		(start -10.62 -0.4)
+		(end -10.62 -19.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "316dd42e-fbe9-4c74-9484-646210460af6")
+	)
+	(fp_line
+		(start 10.62 -0.4)
+		(end 10.62 -19.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b3bd48f-9e89-42ff-9904-8585e351f7e6")
+	)
+	(fp_rect
+		(start -11 0.5)
+		(end 11 -19.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a9330555-4910-42a4-8680-dcdb52dff330")
+	)
+	(fp_line
+		(start -10.5 -19)
+		(end -10.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07dcedc2-7450-4446-abd2-a56b7d98253e")
+	)
+	(fp_line
+		(start -10.5 0)
+		(end 10.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "effa2e62-75f8-4840-943b-e90659f42864")
+	)
+	(fp_line
+		(start 10.5 -19)
+		(end -10.5 -19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e02348b-2afd-43f2-91f8-b713eb95c58b")
+	)
+	(fp_line
+		(start 10.5 0)
+		(end 10.5 -19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "46676605-c5be-474e-a897-5d866041a3d1")
+	)
+	(fp_text user "board edge"
+		(at 0 -1.2 0)
+		(layer "F.Fab")
+		(uuid "18fc879f-c5ed-4414-bd37-a18eea1d62d5")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 7.5 -12.5)
+		(size 2.5 2.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "967adbd7-0a1f-4643-b768-f575198cd4c8")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -12.5)
+		(size 2.5 2.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "79fadc9d-c6db-4478-be86-adb6d5458846")
+	)
+	(pad "3" thru_hole circle
+		(at -7.5 -12.5)
+		(size 2.5 2.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "656c69d7-10a7-444b-bca2-bc399d8f4aef")
+	)
+	(pad "4" thru_hole circle
+		(at -5 -2.5)
+		(size 2.6 2.6)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "592f647d-1f0b-4921-a69d-cda5067b834e")
+	)
+	(pad "4" thru_hole circle
+		(at 5 -14.6)
+		(size 2.5 2.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "11510c4b-599f-4d6e-a72f-588b4f355da0")
+	)
+	(pad "4" thru_hole circle
+		(at 5 -2.5)
+		(size 2.6 2.6)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4b0c280e-8d97-4b06-8d54-3699563acf48")
+	)
+	(pad "5" thru_hole circle
+		(at -5 -14.6)
+		(size 2.5 2.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a978f562-9ff1-4eb7-b532-5844d655643e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../lib/A1200KB.3dshapes/DIN-5_DIN-504.wrl"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
+)
