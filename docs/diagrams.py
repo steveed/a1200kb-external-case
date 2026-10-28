@@ -35,9 +35,8 @@ class Svg:
             self.line(x1, y, x2, y, colour, 3)
         self.text((x1 + x2) / 2, y - 10, label, 12, colour, 'middle')
 
-    def pins(self, x, y, names, side, colour, title, pitch=26):
+    def pins(self, x, y, names, side, colour, title, pitch=26, numbered=True, w=150):
         """a header drawn as a column of numbered pins; returns {pin: (x, y)} of the connection points"""
-        w = 150
         self.items.append(f'<rect x="{x}" y="{y}" width="{w}" height="{pitch * len(names) + 34}" rx="6" fill="#fff" stroke="{colour}" stroke-width="2.5"/>')
         self.text(x + w / 2, y + 21, title, 14, colour, 'middle', bold=True)
         pts = {}
@@ -45,7 +44,7 @@ class Svg:
             py = y + 44 + i * pitch
             px = x + w if side == 'right' else x
             self.items.append(f'<circle cx="{px}" cy="{py - 4}" r="5" fill="{colour}"/>')
-            label = f'{i + 1}  {n}' if side == 'right' else f'{n}  {i + 1}'
+            label = (f'{i + 1}  {n}' if side == 'right' else f'{n}  {i + 1}') if numbered else n
             self.text(px - 12 if side == 'right' else px + 12, py, label, 12.5, '#333', 'end' if side == 'right' else 'start')
             pts[i + 1] = (px, py - 4)
         return pts
@@ -59,7 +58,7 @@ class Svg:
 
 
 # ---- the three ways to connect ----
-s = Svg(980, 560)
+s = Svg(980, 740)
 rows = [
     ('A. DB37 adapter pair', 'Any A1200. No firmware. Nothing to solder on the A1200.',
      ('A1200', ['CN13 keyboard socket', 'CN14 LED header']), ('Adapter', ['Amiga side', 'JP1 closed, D1-D34 fitted']),
@@ -70,6 +69,9 @@ rows = [
     ('C. DIN 5 socket + any Amiga keyboard', 'A1200 with CN17. No firmware.',
      ('A1200', ['CN17 KB TEST header', '(CN14 stays with the case)']), ('din5 board', ['DIN 5 socket', 'JP1 bridged']),
      'keyboard cable', None, ('A2000 / A3000 keyboard', ['A4000: via a PS/2-to-AT', 'adapter'])),
+    ('D. DIN 5 socket + an Amiga keyboard controller board', 'A1200 with CN17 (or a U13 clip). No new firmware; check the tail pinout first.',
+     ('A1200', ['CN17, or a clip on U13', '(CN14 stays with the case)']), ('din5 board', ['DIN 5 socket', 'JP1 bridged']),
+     'DIN 5 cable', ('Controller board', ['from an A500/A2000-', 'style keyboard']), ('A1200 keyboard', ['or A1200KBv2', '(31-way tail)'])),
 ]
 for r, (title, sub, amiga, b1, cab, b2, kb) in enumerate(rows):
     y = 20 + r * 180
@@ -119,6 +121,21 @@ for i, t in enumerate([
         'Cut JP1 to give U13 back, e.g. to use the original keyboard again.']):
     s.text(450, 315 + i * 19, t, 12.5, GREY if i else AMIGA, 'middle', bold=(i == 1))
 s.save('a1200-din5.svg')
+
+# ---- no CN17: the same signals straight off U13 ----
+s = Svg(900, 400)
+s.text(20, 28, 'No CN17: take the same signals from U13 with a PLCC clip or piggyback', 17, '#222', bold=True)
+u13 = s.pins(40, 55, ['pin 13 (PB0) KB_DATA', 'pin 14 (PB1) KB_CLOCK', 'pin 38 (TCMP) KB_RESET', 'pin 1 (/RESET)', '', 'pin 44 (VDD)', 'pin 22 (VSS)'], 'right', AMIGA, 'A1200 U13 (68HC05)', numbered=False, w=210)
+j1 = s.pins(620, 55, ['KDAT', 'KCLK', 'KB_RESET out', 'to JP1 (GND)', 'NC', 'VCC in', 'GND'], 'left', BOARD, 'din5 J1')
+for p in (1, 2, 3, 4, 6, 7):
+    s.line(*u13[p], *j1[p], '#333', 2.5)
+s.text(450, 285, 'Wire the clip to a 1x7 header in CN17 order, so the din5 board plugs straight in.', 13, '#222', 'middle', bold=True)
+for i, t in enumerate([
+        'Pin numbers are from the A1200 schematic (sheet 9). Check them against your clip before powering up.',
+        'The din5 board then plugs in exactly as it would on CN17, and its JP1 holds U13 in reset through pin 1.',
+        'Nothing is soldered to the A1200; remove the clip to put it back as it was.']):
+    s.text(450, 315 + i * 19, t, 12.5, AMIGA if i == 0 else GREY, 'middle')
+s.save('a1200-u13-clip.svg')
 
 # ---- keyboard side: A1200KBv2 to adapter or encoder ----
 s = Svg(900, 330)

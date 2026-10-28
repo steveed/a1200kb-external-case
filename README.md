@@ -29,6 +29,8 @@ A1200KBv2 ── [encoder] ══ DIN 5 cable ══ [din5 board] ── A1200 C
 
 - [`din5/`](din5/Readme.md) gives the A1200 a standard 5-pin DIN keyboard socket. An A2000/A3000 keyboard (or an A4000 one through a PS/2-to-AT adapter) plugs straight in. No firmware.
 - [`encoder/`](encoder/Readme.md) turns the A1200KBv2 into a standard Amiga keyboard with that same DIN 5, so it also works on an A2000/A3000. It has the same outline as the DB37 adapter, so either fits the case. The activity LEDs don't come across; the power LED does.
+- Or plug an A1200 keyboard into an Amiga keyboard controller board from an A500/A2000-style keyboard, and run that board's DIN 5 cable to the din5 board.
+- No CN17? A clip on U13 picks up the same signals without soldering. See the [setup guide](docs/Readme.md).
 
 ## Contents
 

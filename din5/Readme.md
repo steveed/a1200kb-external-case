@@ -5,6 +5,7 @@ A small board for A1200s with the CN17 "KB TEST" header: it gives the A1200 a st
 - An A2000 or A3000 keyboard plugs straight in.
 - An A4000 keyboard (6-pin mini-DIN) works through a standard passive PS/2-to-AT adapter; the pinouts line up the same way as on a PC.
 - The A1200KBv2 plugs in through the [`encoder`](../encoder/Readme.md).
+- An A1200 keyboard works through an Amiga keyboard controller board (see setup D in the [setup guide](../docs/Readme.md)).
 
 ```
 A1200 CN17 ── [din5 board] ── DIN 5 socket ── any Amiga keyboard
@@ -23,6 +24,8 @@ CN17 brings out the onboard keyboard controller's serial lines. The A1200 schema
 | 5 | NC |
 | 6 | VCC |
 | 7 | GND |
+
+No CN17 on your board? A PLCC clip on U13 can bring the same signals out on a CN17-order header; the [setup guide](../docs/Readme.md#no-cn17-clip-onto-u13) has the pin mapping.
 
 JP1 (bridged) ties CN17 pin 4 to ground so the A1200's own keyboard controller (U13) stays in reset and lets go of the clock and data lines. Cut JP1 to give it back.
 
