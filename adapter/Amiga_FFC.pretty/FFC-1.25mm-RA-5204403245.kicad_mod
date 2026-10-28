@@ -361,4 +361,9 @@
 		(uuid "7aca1c4e-75c5-497b-a775-c922a05566f8")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/../lib/A1200KB.3dshapes/FFC-1.25mm-RA-52044.wrl"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )
